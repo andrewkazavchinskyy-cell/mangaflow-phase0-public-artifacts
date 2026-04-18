@@ -1,0 +1,7 @@
+{
+  "artifact": "hosted-public-provider.zip",
+  "sourceId": "public-demo",
+  "entryPoint": "app.mangaflow.external.HostedPublicChapterProvider",
+  "repository": "andrewkazavchinskyy-cell/mangaflow-phase0-public-artifacts",
+  "purpose": "Controlled Android PUBLIC_HTTPS runtime demo for MangaFlow Phase 0"
+}
