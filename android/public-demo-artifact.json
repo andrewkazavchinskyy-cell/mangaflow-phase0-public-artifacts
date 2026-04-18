@@ -1,7 +1,9 @@
 {
-  "artifact": "hosted-public-provider.zip",
   "sourceId": "public-demo",
-  "entryPoint": "app.mangaflow.external.HostedPublicChapterProvider",
+  "publisherId": "andrewkazavchinskyy-cell",
   "repository": "andrewkazavchinskyy-cell/mangaflow-phase0-public-artifacts",
+  "artifactUrl": "https://raw.githubusercontent.com/andrewkazavchinskyy-cell/mangaflow-phase0-public-artifacts/f9fe085bf6c030b31a683bbcb088f75561e561f1/android/hosted-public-provider.zip",
+  "artifactSha256": "9f80114308b8e377e0805d9a8c69b236209921fb8a5a539932c2d58ac5aaf9c8",
+  "signingIdentity": "andrewkazavchinskyy-cell/mangaflow-phase0-public-artifacts#publisher-v1",
   "purpose": "Controlled Android PUBLIC_HTTPS runtime demo for MangaFlow Phase 0"
 }

@@ -9,6 +9,10 @@ Controlled public artifacts for MangaFlow Android Phase 0 runtime demos.
   `PUBLIC_HTTPS` runtime validation path.
 - `android/SHA256SUMS`
   SHA-256 digest for the hosted artifact.
+- `android/public-demo-artifact.json`
+  Signed provenance payload consumed by the private MangaFlow Android app.
+- `android/public-demo-artifact.sig`
+  Detached ECDSA signature for the hosted provenance payload.
 
 ## Scope
 
