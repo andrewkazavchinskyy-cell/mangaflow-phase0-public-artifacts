@@ -1,0 +1,27 @@
+{
+  "repositoryId": "trusted-hosted",
+  "title": "Trusted Hosted Publishers",
+  "kind": "TRUSTED_PUBLIC_INDEX",
+  "sources": [
+    {
+      "sourceId": "public-demo",
+      "title": "Hosted Public Demo",
+      "subtitle": "Signed public source from a trusted publisher",
+      "description": "Hosted public extension delivered through the trusted publisher policy feed.",
+      "language": "English",
+      "version": "Trusted public",
+      "manifestUrl": "https://raw.githubusercontent.com/andrewkazavchinskyy-cell/mangaflow-phase0-public-artifacts/main/android/manifests/public-demo-manifest.json",
+      "expectedSha256": "9f80114308b8e377e0805d9a8c69b236209921fb8a5a539932c2d58ac5aaf9c8"
+    },
+    {
+      "sourceId": "partner-demo",
+      "title": "Partner Hosted Demo",
+      "subtitle": "Signed partner source from a trusted publisher",
+      "description": "Hosted partner extension verified by provenance and publisher trust policy.",
+      "language": "English",
+      "version": "Trusted public",
+      "manifestUrl": "https://raw.githubusercontent.com/andrewkazavchinskyy-cell/mangaflow-phase0-public-artifacts/main/android/manifests/partner-demo-manifest.json",
+      "expectedSha256": "91d7a9f56d9f87c8ae45d5925ec668c8cee2d43e2f37c941b1bdace3c15448dc"
+    }
+  ]
+}
