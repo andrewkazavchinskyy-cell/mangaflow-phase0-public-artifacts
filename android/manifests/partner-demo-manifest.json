@@ -1,0 +1,31 @@
+{
+  "id": "partner-demo",
+  "name": "Partner Hosted Demo",
+  "version": "b8024e6",
+  "language": "en",
+  "baseUrl": "https://partner.mangaflow.demo",
+  "runtime": "KOTLIN_DEX",
+  "entryPoint": "app.mangaflow.external.PartnerHostedPublicChapterProvider",
+  "capabilities": ["catalog", "chapters"],
+  "artifactSource": {
+    "kind": "PUBLIC_HTTPS",
+    "downloadUrl": "https://raw.githubusercontent.com/andrewkazavchinskyy-cell/mangaflow-phase0-partner-public-artifacts/b8024e6d2d23c439fb79ca2f211b7277a91d5227/android/partner-hosted-public-provider.zip",
+    "publisherId": "andrewkazavchinskyy-cell-partner",
+    "repository": "andrewkazavchinskyy-cell/mangaflow-phase0-partner-public-artifacts",
+    "channel": "partner-hosted-public-demo"
+  },
+  "publisher": {
+    "id": "andrewkazavchinskyy-cell-partner",
+    "displayName": "MangaFlow Partner Publisher",
+    "supportUrl": "https://support.mangaflow.demo/partner"
+  },
+  "trust": {
+    "signatureScheme": "PROVENANCE_V1",
+    "signingIdentity": "andrewkazavchinskyy-cell/mangaflow-phase0-partner-public-artifacts#publisher-v1",
+    "provenanceUrl": "https://github.com/andrewkazavchinskyy-cell/mangaflow-phase0-partner-public-artifacts/blob/b8024e6d2d23c439fb79ca2f211b7277a91d5227/android/partner-hosted-public-provider.zip",
+    "provenancePayloadUrl": "https://raw.githubusercontent.com/andrewkazavchinskyy-cell/mangaflow-phase0-partner-public-artifacts/04590a40890949710c9d47f4561ef8787396f886/android/partner-demo-artifact.json",
+    "provenanceSignatureUrl": "https://raw.githubusercontent.com/andrewkazavchinskyy-cell/mangaflow-phase0-partner-public-artifacts/04590a40890949710c9d47f4561ef8787396f886/android/partner-demo-artifact.sig",
+    "minimumTrustTier": "TRUSTED_PUBLIC"
+  },
+  "expectedSha256": "91d7a9f56d9f87c8ae45d5925ec668c8cee2d43e2f37c941b1bdace3c15448dc"
+}
